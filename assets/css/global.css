@@ -1,8 +1,10 @@
 :root {
-    --padding-padrao: .8rem;
+    --padding-global: .8rem;
     --fonte-global: 'Titillium Web';
     --fonte-global2: 'Montserrat';
     --azul-marinho: #1F2B44;
+    --azul-principal: #1942BB;
+    --amarelo-principal: #FBBB40;
 }
 
 *{
