@@ -1,0 +1,30 @@
+:root {
+    --padding-padrao: .8rem;
+    --fonte-global: 'Titillium Web';
+    --fonte-global2: 'Montserrat';
+    --azul-marinho: #1F2B44;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 var(--padding-padrao);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul-marinho);
+}
+
+header #logo_header{
+    width: 70px;
+    height: auto;
+}
+header #icon_header{
+    font-size: 22px;
+    color: #FFF;
+}
