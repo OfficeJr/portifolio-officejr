@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 :root {
-    --padding-global: .8rem;
+    --padding-global: 1rem;
     --fonte-global: 'Titillium Web';
     --fonte-global2: 'Montserrat';
     --azul-marinho: #1F2B44;
@@ -10,16 +12,20 @@
 *{
     padding: 0;
     margin: 0;
+    border: 0;
     box-sizing: border-box;
+    font-family: var(--fonte-global);
 }
 
 header{
-    padding: 0 var(--padding-padrao);
+    padding: 0 var(--padding-global) 0 0;
     height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--azul-marinho);
+    position: fixed;
+    top: 0%;
 }
 
 header #logo_header{
