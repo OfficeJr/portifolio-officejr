@@ -1,34 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/icone_site.ico" type="image/x-icon">
     <!-- Importação flaticon -->
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/sections/banner_section.css">
 
-    <title>Office Jr</title>
+    <link rel="stylesheet" href="assets/css/sections/banner_section.css">
+    <link rel="stylesheet" href="assets/css/sections/banner_section-media.css">
+
+    <title>Office Jr.</title>
 </head>
+
 <body>
     <main>
         <header>
-            <img id="logo_header" src="assets/images/IDV - Office Jr-24.png" alt="">
-            <i id="icon_header" class="fi fi-br-menu-burger"></i>
+            <div class="content_obj_header">
+                <img id="logo_header" src="assets/images/IDV - Office Jr-24.png" alt="">
+                <i id="icon_header" class="fi fi-br-menu-burger"></i>
+            </div>
+            <nav class="menu_header">
+                <ul>
+                    <li class="itens_header"><a href="">inicio</a></li>
+                    <li class="itens_header"><a href="">sobre nos</a></li>
+                    <li class="itens_header"><a href="">redes sociais</a></li>
+                    <li class="itens_header"><a href="">soluções</a></li>
+                    <li class="itens_header"><button class="contact_btn"> Entre em contato</button></li>
+                </ul>
+            </nav>
+
         </header>
+
         <section class="banner">
             <div class="container_conteudo_banner">
                 <div class="conteudo_txt">
                     <h1>Polinizando ideias, cultivando negócios!</h1>
                     <p>Entre em contato com a melhor equipe de consultoria da região!</p>
-                    <button>Entre em contato!</button>
+                    <button class="contact_btn">Entre em contato</button>
                 </div>
                 <img src="" alt="" class="conteudo_img">
             </div>
         </section>
-       
+
+        <section style="height: 100vh;"></section>
+
+        <footer>
+
+            <div class="container_content_footer">
+                <img class="img_footer" src="assets/images/IDV - Office Jr-23.png" alt="OfficeJr">
+                <div class="content_txt_footer">
+
+                </div>
+            </div>
+
+            <div class="container_links_footer">
+
+                <div class="control_list_footer">
+                    <div class="container_list_footer">
+                        <p>Acesso rapido</p>
+                        <ul>
+                            <li style="opacity: 0;">teste</li>
+                            <li>Inicio</li>
+                            <li>Sobre nos</li>
+                            <li>Redes Sociais</li>
+                            <li>Soluções</li>
+                        </ul>
+                    </div>
+                    <div class="container_list_footer">
+                        <p>Soluções</p>
+                        <ul>
+                            <li>Marketing</li>
+                            <li>Gestão de Pessoas</li>
+                            <li>Finanças</li>
+                            <li>Estrategia de Mercado</li>
+                            <li>Sistemas e tecnologias</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="social-midia_footer">
+                    <p>Contatos</p>
+                    <ul>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                    </ul>
+                </div>
+                <p>© Copyright 2024. Todos os direitos reservados</p>
+            </div>
+        </footer>
+
+
     </main>
+    <script src="assets/js/main.js" defer></script>
 </body>
+
 </html>

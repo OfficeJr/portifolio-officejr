@@ -1,0 +1,28 @@
+@media screen and (min-width: 992px) {
+    section.banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_conteudo_banner{
+        width: 80%;
+        height: calc(75% - 70px);
+        padding: 0 4rem;
+        flex-direction: row;
+    }
+    .conteudo_txt {
+        height: 100%;
+        width: 50%;
+        text-align: inherit;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+
+    .conteudo_txt h1 {
+        font-size: 40px;
+    }
+    
+    .conteudo_txt p {
+        font-size: 30px;
+    }
+}
