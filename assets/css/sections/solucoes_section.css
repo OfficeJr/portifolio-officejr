@@ -23,7 +23,7 @@ section.solucoes {
 }
 
 .txt_solucoes h1{  
-    color: #1F2B44;
+    color: Var(--azul-marinho);
     font-size: 32px;
 }
 

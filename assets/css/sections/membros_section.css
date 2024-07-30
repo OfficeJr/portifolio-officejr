@@ -2,7 +2,7 @@ section.membros {
     padding: 1.25rem;
     width: 100%;
     height: 100%;
-    background-color: #1F2B44;
+    background-color: Var(--azul-marinho);
     background-size: cover;
 }
 
