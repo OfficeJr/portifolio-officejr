@@ -17,8 +17,11 @@
     box-sizing: border-box;
     font-family: var(--fonte-global);
     color: #FFF;
-}
 
+}
+main{
+    overflow-x: hidden;
+}
 main,
 i {
     display: grid;
