@@ -207,11 +207,11 @@ footer i {
         flex-direction: row;
         justify-content: space-between;
         border: 1px solid transparent;
+        border-radius: 15px;
     }
 
     .scroll_header{
         margin-top: var(--padding-global);
-        border-radius: 25px;
         border: 1px solid var(--azul-marinho);
     }
 
