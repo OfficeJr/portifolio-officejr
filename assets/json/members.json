@@ -1,0 +1,72 @@
+{
+    "marketing": [
+      {
+        "id": 0,
+        "name": "Eduardo",
+        "accessory": "Marketing"
+      },
+      {
+        "id": 1,
+        "name": "Julia",
+        "accessory": "Marketing"
+      },
+      {
+        "id": 2,
+        "name": "Moises",
+        "accessory": "Marketing"
+      },
+      {
+        "id": 3,
+        "name": "Moises",
+        "accessory": "Marketing"
+      }
+    ],
+    "projetos": [
+      {
+        "id": 0,
+        "name": "Eduardo",
+        "accessory": "Projetos"
+      },
+      {
+        "id": 1,
+        "name": "Julia",
+        "accessory": "Projetos"
+      }
+    ],
+    "financeiro": [
+      {
+        "id": 0,
+        "name": "Eduardo",
+        "accessory": "Financeiro"
+      },
+      {
+        "id": 1,
+        "name": "Julia",
+        "accessory": "Financeiro"
+      }
+    ],
+    "comerecial": [
+      {
+        "id": 0,
+        "name": "Eduardo",
+        "accessory": "Comerecial"
+      },
+      {
+        "id": 1,
+        "name": "Julia",
+        "accessory": "Comerecial"
+      }
+    ],
+    "rh": [
+      {
+        "id": 0,
+        "name": "Eduardo",
+        "accessory": "Recursos Humanos"
+      },
+      {
+        "id": 1,
+        "name": "Julia",
+        "accessory": "Recursos Humanos"
+      }
+    ]
+  }
