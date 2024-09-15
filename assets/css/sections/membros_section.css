@@ -79,6 +79,7 @@ section.membros {
     display: flex;
     padding: 10px 0;
     overflow-x: scroll;
+    border-radius: 20px;
     width: 300px;
     gap: 10px;
 }
