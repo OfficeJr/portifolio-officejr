@@ -1,72 +1,186 @@
 {
-    "marketing": [
-      {
-        "id": 0,
-        "name": "Eduardo",
-        "accessory": "Marketing"
-      },
-      {
-        "id": 1,
-        "name": "Julia",
-        "accessory": "Marketing"
-      },
-      {
-        "id": 2,
-        "name": "Moises",
-        "accessory": "Marketing"
-      },
-      {
-        "id": 3,
-        "name": "Moises",
-        "accessory": "Marketing"
-      }
-    ],
-    "projetos": [
-      {
-        "id": 0,
-        "name": "Eduardo",
-        "accessory": "Projetos"
-      },
-      {
-        "id": 1,
-        "name": "Julia",
-        "accessory": "Projetos"
-      }
-    ],
-    "financeiro": [
-      {
-        "id": 0,
-        "name": "Eduardo",
-        "accessory": "Financeiro"
-      },
-      {
-        "id": 1,
-        "name": "Julia",
-        "accessory": "Financeiro"
-      }
-    ],
-    "comerecial": [
-      {
-        "id": 0,
-        "name": "Eduardo",
-        "accessory": "Comerecial"
-      },
-      {
-        "id": 1,
-        "name": "Julia",
-        "accessory": "Comerecial"
-      }
-    ],
-    "rh": [
-      {
-        "id": 0,
-        "name": "Eduardo",
-        "accessory": "Recursos Humanos"
-      },
-      {
-        "id": 1,
-        "name": "Julia",
-        "accessory": "Recursos Humanos"
-      }
-    ]
-  }
+  "marketing": [
+    {
+      "id": 0,
+      "name": "Eduardo Octávio",
+      "accessory": "Assessor de Marketing",
+      "image": "Eduardo Octavio"
+    },
+    {
+      "id": 1,
+      "name": "Paulo Henrique",
+      "accessory": "Assessor de Marketing",
+      "image": "Paulo Henrique"
+    },
+    {
+      "id": 2,
+      "name": "Paloma Bianca",
+      "accessory": "Assessora de Marketing",
+      "image": "Paloma Bianca"
+    },
+    {
+      "id": 4,
+      "name": "Moisés Emanuel",
+      "accessory": "Assessor de Marketing",
+      "image": "Moises Emanuel"
+    },
+    {
+      "id": 5,
+      "name": "Kecyanne Pedroso",
+      "accessory": "Assessora de Marketing",
+      "image": "Kecyanne Pedroso"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 0,
+      "name": "João Gabriel",
+      "accessory": "Assessor de Projetos",
+      "image": "Joao Gabriel"
+    },
+    {
+      "id": 1,
+      "name": "Douglas Vinícius",
+      "accessory": "Assessor de Projetos",
+      "image": "Douglas Vinicius"
+    },
+    {
+      "id": 2,
+      "name": "Bruna Danielly",
+      "accessory": "Assessora de Projetos",
+      "image": "Bruna Danielly"
+    },
+    {
+      "id": 4,
+      "name": "Rodolfo Miranda",
+      "accessory": "Assessor de Projetos",
+      "image": "Rodolfo Miranda"
+    },
+    {
+      "id": 5,
+      "name": "Monique Evelin",
+      "accessory": "Assessora de Projetos",
+      "image": "Monique Evelin"
+    },
+    {
+      "id": 6,
+      "name": "Gustavo Novaes",
+      "accessory": "Assessor de Projetos",
+      "image": "Gustavo Novaes"
+    },
+    {
+      "id": 7,
+      "name": "Guilherme Victor",
+      "accessory": "Assessor de Projetos",
+      "image": "Guilherme Victor"
+    },
+    {
+      "id": 8,
+      "name": "Laura Correia",
+      "accessory": "Assessora de Projetos",
+      "image": "Laura Correia"
+    },
+    {
+      "id": 9,
+      "name": "João Vitor",
+      "accessory": "Assessor de Projetos",
+      "image": "Joao Vitor"
+    }
+  ],
+  "finanças": [
+    {
+      "id": 0,
+      "name": "Luana Mirele",
+      "accessory": "Assessora de Finanças",
+      "image": "Luana Mirele"
+    },
+    {
+      "id": 1,
+      "name": "Alice Neves",
+      "accessory": "Assessora de Finanças",
+      "image": "Alice Neves"
+    },
+    {
+      "id": 2,
+      "name": "Michelle Picinin",
+      "accessory": "Assessora de Finanças",
+      "image": "Michelle Picinin"
+    },
+    {
+      "id": 3,
+      "name": "Pedro Lucas",
+      "accessory": "Assessor de Finanças",
+      "image": "Pedro Lucas"
+    },
+    {
+      "id": 4,
+      "name": "Edgar Marcos",
+      "accessory": "Assessor de Finanças",
+      "image": "Edgar Marcos"
+    },
+    {
+      "id": 5,
+      "name": "Leandro Henrique",
+      "accessory": "Assessor de Finanças",
+      "image": "Leandro Henrique"
+    }
+  ],
+  "recursos humanos": [
+    {
+      "id": 0,
+      "name": "Rojane Brasil",
+      "accessory": "Assessora de Recursos Humanos",
+      "image": "Rojane Brasil"
+    },
+    {
+      "id": 1,
+      "name": "Nathalie Bruno",
+      "accessory": "Assessora de Recursos Humanos",
+      "image": "Nathalie Bruno"
+    },
+    {
+      "id": 2,
+      "name": "Luiza Fialho",
+      "accessory": "Assessora de Recursos Humanos",
+      "image": "Luiza Fialho"
+    }
+  ],
+  "diretoria": [
+    {
+      "id": 0,
+      "name": "Leticia Niquini",
+      "accessory": "Presidenta",
+      "image": "Leticia Niquini"
+    },
+    {
+      "id": 1,
+      "name": "Maria Eduarda",
+      "accessory": "Vice-Presidenta",
+      "image": "Maria Eduarda"
+    },
+    {
+      "id": 2,
+      "name": "Julia Azevedo",
+      "accessory": "Diretora de Marketing",
+      "image": "Julia Azevedo"
+    },
+    {
+      "id": 4,
+      "name": "Ramon Maurício",
+      "accessory": "Diretor de Pessoas",
+      "image": "Ramon Mauricio"
+    },
+    {
+      "id": 4,
+      "name": "Ellen Santos",
+      "accessory": "Diretora de Projetos",
+      "image": "Ellen Santos"
+    },
+    {
+      "id": 4,
+      "name": "Viviane Luísa",
+      "accessory": "Vice-Diretora de Projetos",
+      "image": "Viviane Luisa"
+    }
+  ]
+}
