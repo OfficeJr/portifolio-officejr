@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="assets/css/sections/solucoes_section.css">
     <link rel="stylesheet" href="assets/css/sections/last_posts.css">
 
+    <!-- JS -->
+    <script src="assets/js/sections/select_membros.js" defer></script>
+    <script src="assets/js/sections/load_membros.js" defer></script>
+
     <title>Office Jr.</title>
 </head>
 
@@ -24,21 +28,22 @@
     <main>
         <header>
             <div class="content_obj_header">
-                <img id="logo_header" src="assets/images/IDV - Office Jr-24.png" alt="">
+                <img id="logo_header" src="assets/images/IDV/IDV - Office Jr-24.png" alt="">
                 <i id="icon_header" class="fi fi-br-menu-burger"></i>
             </div>
             <nav class="menu_header">
                 <ul>
-                    <li class="itens_header"><a href="">inicio</a></li>
-                    <li class="itens_header"><a href="">sobre nos</a></li>
-                    <li class="itens_header"><a href="">redes sociais</a></li>
-                    <li class="itens_header"><a href="">soluções</a></li>
+                    <li class="itens_header"><a href="#inicio">inicio</a></li>
+                    <li class="itens_header"><a href="#sobre_nos">sobre nos</a></li>
+                    <li class="itens_header"><a href="#solucoes">soluções</a></li>
+                    <li class="itens_header"><a href="#last_posts">redes sociais</a></li>
+                
                     <li class="itens_header"><button class="contact_btn"> Entre em contato</button></li>
                 </ul>
             </nav>
         </header>
 
-        <section class="banner">
+        <section class="banner" id="inicio">
             <div class="container_conteudo_banner">
                 <div class="conteudo_txt">
                     <h1>Polinizando ideias, cultivando negócios!</h1>
@@ -50,7 +55,7 @@
             </div>
         </section>
 
-        <section class="sobre_nos">
+        <section class="sobre_nos" id="sobre_nos">
             <div class="container_sobre_nos">
                 <h1>Sobre Nós</h1>
                 <div class="texto_container">  
@@ -167,22 +172,21 @@
 
         </section>
 
-        <section class="solucoes">
+        <section class="solucoes" id="solucoes">
             <div class="container_conteudo_solucoes">
                 <div class="txt_solucoes">
                     <h1>Nossas soluçoes</h1>
                 </div>
                 <div class="container_selecione_solucoes">
-                    <div class="container_solucao"></div>
-                    <div class="container_solucao"></div>
-                    <div class="container_solucao"></div>
-                    <div class="container_solucao"></div>
-                    <div class="container_solucao"></div>
+                    <div class="container_solucao">
+                        <a href="https://www.instagram.com/p/C9imY7nBgts/" target="_blank">
+                        <img src="assets/images/projetos/1.png" alt="projeto">
+                    </a></div>          
                 </div>
             </div>
         </section>
 
-        <section class="last_posts">
+        <section class="last_posts" id="last_posts">
             <h1 class="last_posts_title">Acompanhe a Office Jr.</h1>
             <p class="last_posts_text">Siga-nos nas redes sociais e acompanhe as melhores dicas sobre consultoria
                 empresarial!</p>
@@ -190,7 +194,7 @@
             <div class="container_last_posts">
 
                 <div class="subcontainer_profile">
-                    <img src="#" class="profile_picture">
+                    <img src="assets/images/IDV/IDV - Office Jr_Prancheta 1.jpg" class="profile_picture">
                     <h1 class="profile_title">Office Jr. Consultoria</h1>
                     <div class="nav_profile">
                         <a href="https://www.instagram.com/officejr/">Instagram</a>
@@ -210,14 +214,15 @@
                             <input type="radio" name="radio_button" id="slide3">
 
                             <div class="slide first">
-                                <a href="#"><img src=""></a>
+                                <a href="https://www.instagram.com/p/DAXOIHSxrvH/"><img src="assets/images/post/1.png"></a>
                             </div>
                             <div class="slide">
-                                <a href="#"><img src=""></a>
+                                <a href="https://www.instagram.com/p/DAHgRDBxZUq/"><img src="assets/images/post/2.png"></a>
                             </div>
                             <div class="slide">
-                                <a href="#"><img src=""></a>
+                                <a href="https://www.instagram.com/p/DACedWiuLCY/"><img src="assets/images/post/3.png"></a>
                             </div>
+                            
 
                             <nav class="manual_nav">
                                 <label for="slide1" class="manual_btn">
@@ -235,9 +240,9 @@
                     </div>
 
                     <div class="static_posts">
-                        <a href="#"><img src=""></a>
-                        <a href="#"><img src=""></a>
-                        <a href="#"><img src=""></a>
+                        <a href="https://www.instagram.com/p/DAXOIHSxrvH/"><img src="assets/images/post/1.png"></a>
+                        <a href="https://www.instagram.com/p/DAHgRDBxZUq/"><img src="assets/images/post/2.png"></a>
+                        <a href="https://www.instagram.com/p/DACedWiuLCY/"><img src="assets/images/post/3.png"></a>
                     </div>
 
                 </div>
@@ -247,7 +252,7 @@
         <footer>
 
             <div class="container_content_footer">
-                <img class="img_footer" src="assets/images/IDV - Office Jr-23.png" alt="OfficeJr">
+                <img class="img_footer" src="assets/images/IDV/IDV - Office Jr-23.png" alt="OfficeJr">
                 <div class="content_txt_footer">
 
                 </div>
@@ -259,10 +264,11 @@
                     <div class="container_list_footer">
                         <h3>Acesso rapido</h3>
                         <ul>
-                            <li>Inicio</li>
-                            <li>Sobre nos</li>
-                            <li>Redes Sociais</li>
-                            <li>Soluções</li>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobre_nos">Sobre nos</a></li>
+                            <li><a href="#solucoes">Soluções</a></li>
+                            <li><a href="#last_post">Redes Sociais</a></li>
+                          
                         </ul>
                     </div>
                     <div class="container_list_footer">
@@ -294,8 +300,7 @@
     </main>
 
     <script src="assets/js/main.js" defer></script>
-    <script src="assets/js/sections/select_membros.js" defer></script>
-    <script src="assets/js/sections/load_membros.js" defer></script>
+
 </body>
 
 </html>

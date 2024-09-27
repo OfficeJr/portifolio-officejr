@@ -81,10 +81,14 @@ section.membros {
     overflow-x: scroll; 
     width: 300px;
     gap: 10px;
+    
 }
 
-
+.container_acessoria:hover {
+    transform: translateY(5px);
+}
 .container_acessoria {
+    transition: 0.3s;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,6 +115,7 @@ section.membros {
         object-fit: top;
 
     }
+    
 }
 
 i {
@@ -149,7 +154,16 @@ i {
         overflow-x: scroll;
         width: 920px;
         gap: 10px;
+
     }
 
-    .container_selecione_acessoria::-webkit-scrollbar {}
+    .container_selecione_acessoria::-webkit-scrollbar {
+         height: 5px;
+    }
+    .container_selecione_acessoria::-webkit-scrollbar-thumb{
+        background-color: #FFF;
+        border-radius: 100px;
+        cursor: all-scroll;
+        width: 2px;
+    }
 }
