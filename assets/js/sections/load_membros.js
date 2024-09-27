@@ -8,7 +8,7 @@ function Card_Membros(data) {
         div.className = 'container_acessoria';
 
         const img = document.createElement('img');
-        img.src = `assets/images/membros/${item.name}.PNG`;
+        img.src = `assets/images/membros/${item.name}.png`;
         img.alt = `Foto de ${item.name}`;
         div.appendChild(img);
 
