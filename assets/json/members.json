@@ -3,184 +3,155 @@
     {
       "id": 0,
       "name": "Eduardo Octávio",
-      "accessory": "Assessor de Marketing",
-      "image": "Eduardo Octavio"
+      "accessory": "Assessor de Marketing"
     },
     {
       "id": 1,
       "name": "Paulo Henrique",
-      "accessory": "Assessor de Marketing",
-      "image": "Paulo Henrique"
+      "accessory": "Assessor de Marketing"
     },
     {
       "id": 2,
       "name": "Paloma Bianca",
-      "accessory": "Assessora de Marketing",
-      "image": "Paloma Bianca"
+      "accessory": "Assessora de Marketing"
     },
     {
       "id": 4,
       "name": "Moisés Emanuel",
-      "accessory": "Assessor de Marketing",
-      "image": "Moises Emanuel"
+      "accessory": "Assessor de Marketing"
     },
     {
       "id": 5,
       "name": "Kecyanne Pedroso",
-      "accessory": "Assessora de Marketing",
-      "image": "Kecyanne Pedroso"
+      "accessory": "Assessora de Marketing"
     }
   ],
   "projetos": [
     {
       "id": 0,
       "name": "João Gabriel",
-      "accessory": "Assessor de Projetos",
-      "image": "Joao Gabriel"
+      "accessory": "Assessor de Projetos"
     },
     {
       "id": 1,
       "name": "Douglas Vinícius",
-      "accessory": "Assessor de Projetos",
-      "image": "Douglas Vinicius"
+      "accessory": "Assessor de Projetos"
     },
     {
       "id": 2,
       "name": "Bruna Danielly",
-      "accessory": "Assessora de Projetos",
-      "image": "Bruna Danielly"
+      "accessory": "Assessora de Projetos"
     },
     {
       "id": 4,
       "name": "Rodolfo Miranda",
-      "accessory": "Assessor de Projetos",
-      "image": "Rodolfo Miranda"
+      "accessory": "Assessor de Projetos"
     },
     {
       "id": 5,
       "name": "Monique Evelin",
-      "accessory": "Assessora de Projetos",
-      "image": "Monique Evelin"
+      "accessory": "Assessora de Projetos"
     },
     {
       "id": 6,
       "name": "Gustavo Novaes",
-      "accessory": "Assessor de Projetos",
-      "image": "Gustavo Novaes"
+      "accessory": "Assessor de Projetos"
     },
     {
       "id": 7,
       "name": "Guilherme Victor",
-      "accessory": "Assessor de Projetos",
-      "image": "Guilherme Victor"
+      "accessory": "Assessor de Projetos"
     },
     {
       "id": 8,
       "name": "Laura Correia",
-      "accessory": "Assessora de Projetos",
-      "image": "Laura Correia"
+      "accessory": "Assessora de Projetos"
     },
     {
       "id": 9,
       "name": "João Vitor",
-      "accessory": "Assessor de Projetos",
-      "image": "Joao Vitor"
+      "accessory": "Assessor de Projetos"
     }
   ],
   "finanças": [
     {
       "id": 0,
       "name": "Luana Mirele",
-      "accessory": "Assessora de Finanças",
-      "image": "Luana Mirele"
+      "accessory": "Assessora de Finanças"
     },
     {
       "id": 1,
       "name": "Alice Neves",
-      "accessory": "Assessora de Finanças",
-      "image": "Alice Neves"
+      "accessory": "Assessora de Finanças"
     },
     {
       "id": 2,
       "name": "Michelle Picinin",
-      "accessory": "Assessora de Finanças",
-      "image": "Michelle Picinin"
+      "accessory": "Assessora de Finanças"
     },
     {
       "id": 3,
       "name": "Pedro Lucas",
-      "accessory": "Assessor de Finanças",
-      "image": "Pedro Lucas"
+      "accessory": "Assessor de Finanças"
     },
     {
       "id": 4,
       "name": "Edgar Marcos",
-      "accessory": "Assessor de Finanças",
-      "image": "Edgar Marcos"
+      "accessory": "Assessor de Finanças"
     },
     {
       "id": 5,
       "name": "Leandro Henrique",
-      "accessory": "Assessor de Finanças",
-      "image": "Leandro Henrique"
+      "accessory": "Assessor de Finanças"
     }
   ],
   "recursos humanos": [
     {
       "id": 0,
       "name": "Rojane Brasil",
-      "accessory": "Assessora de Recursos Humanos",
-      "image": "Rojane Brasil"
+      "accessory": "Assessora de Recursos Humanos"
     },
     {
       "id": 1,
       "name": "Nathalie Bruno",
-      "accessory": "Assessora de Recursos Humanos",
-      "image": "Nathalie Bruno"
+      "accessory": "Assessora de Recursos Humanos"
     },
     {
       "id": 2,
       "name": "Luiza Fialho",
-      "accessory": "Assessora de Recursos Humanos",
-      "image": "Luiza Fialho"
+      "accessory": "Assessora de Recursos Humanos"
     }
   ],
   "diretoria": [
     {
       "id": 0,
       "name": "Leticia Niquini",
-      "accessory": "Presidenta",
-      "image": "Leticia Niquini"
+      "accessory": "Presidenta"
     },
     {
       "id": 1,
       "name": "Maria Eduarda",
-      "accessory": "Vice-Presidenta",
-      "image": "Maria Eduarda"
+      "accessory": "Vice-Presidenta"
     },
     {
       "id": 2,
       "name": "Júlia Azevedo",
-      "accessory": "Diretora de Marketing",
-      "image": "Julia Azevedo"
+      "accessory": "Diretora de Marketing"
     },
     {
       "id": 4,
       "name": "Ramon Maurício",
-      "accessory": "Diretor de Pessoas",
-      "image": "Ramon Mauricio"
+      "accessory": "Diretor de Pessoas"
     },
     {
       "id": 4,
       "name": "Ellen Santos",
-      "accessory": "Diretora de Projetos",
-      "image": "Ellen Santos"
+      "accessory": "Diretora de Projetos"
     },
     {
       "id": 4,
       "name": "Viviane Luísa",
-      "accessory": "Vice-Diretora de Projetos",
-      "image": "Viviane Luisa"
+      "accessory": "Vice-Diretora de Projetos"
     }
   ]
 }
