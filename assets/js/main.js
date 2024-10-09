@@ -7,7 +7,6 @@ const variable = {
 
 
 variable.nav.btnHeaderExpand.addEventListener('click', function () {
-    console.log("teste");
     variable.nav.header.classList.toggle("expanded");
     variable.nav.btnHeaderExpand.classList.toggle("fi-br-cross");
 })
